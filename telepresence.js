@@ -6,7 +6,7 @@ $(document).ready(function() {
         $(this).addClass("activestate");
 
         var domain = "http://" + document.domain; //change this to your public dns
-        var script = "/api.php?save=" + $(this).attr("id");
+        var script = "/telepresence-turtlebot/api.php?save=" + $(this).attr("id");
 
         //save the action to the server
         $.getJSON( domain + script, function( data ) {
