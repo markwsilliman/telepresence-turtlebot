@@ -1,6 +1,6 @@
 $(document).ready(function() {
     //when they click on any action send it to the server
-    $(".action").click(function() {
+    $(".button").click(function() {
         //remove all active state classes (reset)
         $(".activestate").removeClass("activestate");
         $(this).addClass("activestate");
